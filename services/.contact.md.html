@@ -639,6 +639,49 @@ function setDocumentScrollTop(ypos)
 
 </head>
 <body class="markdown-body">
-
+<h1> <a id="user-content-contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h1> 
+<p>TBD</p> 
+<h4> <a id="user-content--retrieve-contact-informations" class="anchor" href="#-retrieve-contact-informations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a id="user-content-get_contact"></a> Retrieve contact informations</h4> 
+<pre><code>Method: GET 
+URL: /contact/{type}/{informations}/
+</code></pre> 
+<p>This request retrieves all informations about a contact.</p> 
+<p><strong>Mandatory parameters:</strong></p> 
+<table> 
+ <thead> 
+  <tr> 
+   <th>Field</th> 
+   <th>Type</th> 
+   <th>Required</th> 
+   <th>Description</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>type</td> 
+   <td>String</td> 
+   <td>Mandatory</td> 
+   <td>The type of the search, wether <code>SMS</code> or <code>email</code>.</td> 
+  </tr> 
+  <tr> 
+   <td>informations</td> 
+   <td>String</td> 
+   <td>Mandatory</td> 
+   <td>Either the phone number for the type SMS, or the email address for the type email. <strong>Note :</strong> You'll have to URL encode the content of this parameter, due to the variety of character it can contains.</td> 
+  </tr> 
+ </tbody> 
+</table> 
+<p><strong>Returns:</strong></p> 
+<p>An instance of a contact object.</p> 
+<p><strong>Example:</strong></p> 
+<div class="highlight highlight-source-js">
+ <pre><span class="pl-c1">GET</span> <span class="pl-k">/</span>contact<span class="pl-k">/</span><span class="pl-c1">SMS</span><span class="pl-k">/%</span><span class="pl-ii">2B33123456789</span>
+{
+    contactID<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&quot;</span>A145SEA<span class="pl-pds">&quot;</span></span>,
+    type<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&quot;</span>SMS<span class="pl-pds">&quot;</span></span>,
+    informations<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&quot;</span>+33123456789<span class="pl-pds">&quot;</span></span>
+}</pre>
+</div> 
+<hr />
 </body>
 </html>
