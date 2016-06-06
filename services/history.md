@@ -8,7 +8,7 @@ TBD
 Method: GET 
 URL: /history/{instrument}
 ```
-Retrieves the currency cross history for a cross given.
+Retrieves the currency cross history for a cross given, with one rate per day.
 
 **Mandatory parameters:**
 
