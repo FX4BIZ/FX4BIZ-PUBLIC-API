@@ -26,7 +26,7 @@ Retrieves the currency cross history for a cross given.
 
 **Returns:**
 
-An instance of a RateHistoryList object.
+An instance of a [RateHistory](../resources/resources.md#rateHistory_resource) object.
 
 **Example:**
 ```js

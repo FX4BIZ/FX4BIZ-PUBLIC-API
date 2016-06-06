@@ -19,7 +19,7 @@ This request retrieves all informations about a contact.
 
 **Returns:**
 
-An instance of a contact object.
+An instance of a [Contact](../resources/resources.md#contact_resource) object.
 
 **Example:**
 ```js
@@ -48,7 +48,7 @@ This request adds a contact.
 
 **Returns:**
 
-An instance of a contact object.
+An instance of a [Contact](../resources/resources.md#contact_resource) object.
 
 **Example:**
 ```js

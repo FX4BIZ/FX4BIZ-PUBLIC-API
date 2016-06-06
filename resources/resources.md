@@ -118,7 +118,7 @@
 
 <hr />
 
-#### <a id="RateHistory_resource"></a> RateHistory ####
+#### <a id="rateHistory_resource"></a> RateHistory ####
 
 **Fields :**
 

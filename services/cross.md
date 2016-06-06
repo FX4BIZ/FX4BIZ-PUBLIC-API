@@ -16,7 +16,7 @@ There is no mandatory parameters for this request.
 
 **Returns:**
 
-An instance of a cross list object.
+An instance of a [Cross](../resources/resources.md#cross_resource) list object.
 
 **Example:**
 ```js

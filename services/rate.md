@@ -18,7 +18,7 @@ Retrieves the current rate for the instrument given.
 
 **Returns:**
 
-An instance of a Rate object.
+An instance of a [Rate](../resources/resources.md#rate_resource) object.
 
 **Example:**
 ```js
