@@ -22,8 +22,10 @@ This request retrieves all informations about a contact.
 An instance of a contact object.
 
 **Example:**
-```js
+```http
 GET /contact/SMS/%2B33123456789
+```
+```js
 {
 	contactID: "A145SEA",
 	type: "SMS",
