@@ -16,7 +16,7 @@ For relayability and standardizing the API, all the HTTP responses will contain 
 | Name | Type | Description |
 |------|------|-------------|
 | status | Integer | The HTTP status of the request. |
-| date | Datetime | The date when the response was sent by the server. |
+| date | [Datetime](./types.md#datetime_type) | The date when the response was sent by the server. |
 | errorMessage | String | A string describing an error if it occurs, null otherwise. |
 
 FX4BIZ uses conventional HTTP response codes to indicate success or failure of an API request. The body of the response contains more detailed information on the cause of the problem.
