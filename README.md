@@ -2,6 +2,10 @@
 
 TBD
 
+## API Standards
+
+You can find some standards concerning this API [here](./resources/conventions.md).
+
 ## Routes
 
 #### Alert
