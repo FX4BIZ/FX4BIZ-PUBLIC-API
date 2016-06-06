@@ -14,7 +14,7 @@ Adds an alert for the contact given, with the parameters given.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| contactID | ID | The ID of the contact to add the alert. | 
+| contactID | [ID](../resources/types.md#id_type) | The ID of the contact to add the alert. | 
 | type | String | The type of alert, wether `SMS` or `email`. |
 | informations | String | Either the phone number for the type SMS, or the email address for the type email. |
 

@@ -20,8 +20,8 @@ Retrieves the currency cross history for a cross given.
 
 | Field | Type | Description | Default |
 |-------|------|-------------|---------|
-| from | Date | The starting date to get history on. | One month before the current date. |
-| to | Date | The ending date to get history on. | The current date. |
+| from | [Date](../resources/types.md#date_type) | The starting date to get history on. | One month before the current date. |
+| to | [Date](../resources/types.md#date_type) | The ending date to get history on. | The current date. |
 | dateFormat | String | A date format expression compatible with [this function](http://php.net/manual/fr/function.date.php). <br />**Note :** You'll have to URL encode the content of this parameter, due to the variety of character it can contains. | `U` |
 
 **Returns:**
