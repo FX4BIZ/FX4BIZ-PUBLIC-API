@@ -5,12 +5,12 @@ TBD
 #### <a id="post_alert"></a> Add an alert ####
 
 ```
-Method: GET 
+Method: POST 
 URL: /alert/
 ```
 Adds an alert for the contact given, with the parameters given.
 
-**Parameters:**
+**Mandatory parameters:**
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
