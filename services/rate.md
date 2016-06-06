@@ -1,0 +1,28 @@
+# Rate
+
+TBD
+
+#### <a id="get_rate"></a> Get rate ####
+
+```http
+Method: GET 
+URL: /rate/{instrument}
+```
+Retrieves the current rate for the instrument given.
+
+**Mandatory parameters:**
+
+| Field | Type | Description |
+|-------|------|-------------|
+| instrument | String | The representation of the currency cross to get history on. |
+
+**Returns:**
+
+An instance of a Rate object.
+
+**Example:**
+```js
+GET /rate/EURUSD
+```
+
+<hr />

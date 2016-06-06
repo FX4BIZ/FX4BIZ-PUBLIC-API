@@ -12,10 +12,10 @@ This request retrieves all informations about a contact.
  
 **Mandatory parameters:**
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| type | String | Mandatory | The type of the search, wether `SMS` or `email`. |
-| informations | String | Mandatory | Either the phone number for the type SMS, or the email address for the type email.<br />**Note :** You'll have to URL encode the content of this parameter, due to the variety of character it can contains. |
+| Field | Type | Description |
+|-------|------|-------------|
+| type | String | The type of the search, wether `SMS` or `email`. |
+| informations | String | Either the phone number for the type SMS, or the email address for the type email.<br />**Note :** You'll have to URL encode the content of this parameter, due to the variety of character it can contains. |
 
 **Returns:**
 
@@ -38,13 +38,13 @@ This request adds a contact.
  
 **Mandatory parameters:**
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| civility | String | Mandatory | The civility of the contact, wether `Mr.` or `Mrs.`. |
-| firstName | String | Mandatory | The first name of the contact. |
-| lastName | String | Mandatory | The last name of the contact. |
-| type | String | Mandatory | The type of the search, wether `SMS` or `email`. |
-| informations | String | Mandatory | Either the phone number for the type SMS, or the email address for the type email. |
+| Field | Type | Description |
+|-------|------|-------------|
+| civility | String | The civility of the contact, wether `Mr.` or `Mrs.`. |
+| firstName | String | The first name of the contact. |
+| lastName | String | The last name of the contact. |
+| type | String | The type of the search, wether `SMS` or `email`. |
+| informations | String | Either the phone number for the type SMS, or the email address for the type email. |
 
 **Returns:**
 

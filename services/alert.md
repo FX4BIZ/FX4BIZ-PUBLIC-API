@@ -4,7 +4,7 @@ TBD
 
 #### <a id="post_alert"></a> Add an alert ####
 
-```
+```http
 Method: POST 
 URL: /alert/
 ```
@@ -12,11 +12,11 @@ Adds an alert for the contact given, with the parameters given.
 
 **Mandatory parameters:**
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| contactID | ID | Mandatory | The ID of the contact to add the alert. | 
-| type | String | Mandatory | The type of alert, wether `SMS` or `email`. |
-| informations | String | Mandatory | Either the phone number for the type SMS, or the email address for the type email. |
+| Field | Type | Description |
+|-------|------|-------------|
+| contactID | ID | The ID of the contact to add the alert. | 
+| type | String | The type of alert, wether `SMS` or `email`. |
+| informations | String | Either the phone number for the type SMS, or the email address for the type email. |
 
 **Returns:**
 

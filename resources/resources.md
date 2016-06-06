@@ -1,0 +1,153 @@
+# Resources
+
+#### <a id="alert_resource"></a> Alert ####
+
+**Fields :**
+
+| Name | Type | Description |
+|------|------|-------------|
+| alertID | ID | The ID of the alert. |
+| contactID | ID | The ID of the contact linked with the alert. |
+| type | String | The type of alert, wether `SMS` or `email`. |
+| informations | String | Either the phone number for the type SMS, or the email address for the type email. |
+
+**Example :**
+```js
+{
+	alertID: "AC15DB",
+	contactID: "TD126S",
+	type: "SMS",
+	informations: "+336789456123"
+}
+```
+
+<hr />
+
+#### <a id="contact_resource"></a> Contact ####
+
+**Fields :**
+
+| Name | Type | Description |
+|------|------|-------------|
+| contactID | ID | The ID of the contact. |
+| civility | String | The civility of the contact. |
+| firstName | String | The first name of the contact. |
+| lastName | String | The last name of the contact. |
+| email | String | The email of the contact. |
+| phone | String | The phone number of the contact. |
+| tokensAvailable | Integer | The number of alert still available for the contact. |
+
+**Example :**
+```js
+{
+	contactID: "AC15DB",
+	civility: "Mr.",
+	firstName: "John",
+	lastName: "Doe",
+	email: "jd@contact.com",
+	phone: "+336789456123",
+	tokensAvailable: 5
+}
+```
+
+<hr />
+
+#### <a id="cross_resource"></a> Cross ####
+
+**Fields :**
+
+| Name | Type | Description |
+|------|------|-------------|
+| instrument | String | The representation of the currency cross with two currencies with [ISO-4217 Currency Code](http://www.xe.com/iso4217.php) format. |
+
+**Example :**
+```js
+{
+	instrument: "EURUSD",
+}
+```
+
+<hr />
+
+#### <a id="crossList_resource"></a> CrossList ####
+
+**Fields :**
+
+| Name | Type | Description |
+|------|------|-------------|
+| crossList | Array of Cross | An array containing crosses.  |
+
+**Example :**
+```js
+{
+	crossList: [
+		{
+			instrument: "EURUSD"
+		},
+		{
+			instrument: "EURGBP"
+		},
+		{
+			instrument: "EURHKD"
+		},
+		...
+	]
+}
+```
+
+<hr />
+
+#### <a id="rate_resource"></a> Rate ####
+
+**Fields :**
+
+| Name | Type | Description |
+|------|------|-------------|
+| instrument | String | The representation of the currency cross with two currencies with [ISO-4217 Currency Code](http://www.xe.com/iso4217.php) format. |
+| rate | Float | The rate of the instrument for the date of the RateHistory. |
+| date | Date | The date of the RateHistory. |
+
+**Example :**
+```js
+{
+	instrument: "EURUSD",
+	rate: 1.4581,
+	date: "2016-01-10"
+}
+```
+
+<hr />
+
+#### <a id="RateHistory_resource"></a> RateHistory ####
+
+**Fields :**
+
+| Name | Type | Description |
+|------|------|-------------|
+| rateHistoryList | Array of Rate | An array containing RateHistory.  |
+
+**Example :**
+```js
+{
+	rateHistory: [
+		{
+			instrument: "EURUSD",
+			rate: 1.4581,
+			date: "2016-01-10"
+		},
+		{
+			instrument: "EURUSD",
+			rate: 1.0154,
+			date: "2016-01-11"
+		},
+		{
+			instrument: "EURUSD",
+			rate: 1.2458,
+			date: "2016-01-12"
+		},
+		...
+	]
+}
+```
+
+<hr />
