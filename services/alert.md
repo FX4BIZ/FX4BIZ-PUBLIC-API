@@ -20,7 +20,7 @@ Adds an alert for the contact given, with the parameters given.
 
 **Returns:**
 
-An instance of an alert object.
+An instance of an [Alert](../resources/resources.md#alert_resource) object.
 
 **Example:**
 ```js
