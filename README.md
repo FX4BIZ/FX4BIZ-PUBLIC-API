@@ -19,8 +19,8 @@ TBD
 
 #### History
 
-* [GET /history/{instrument} - Get currency cross history](./resources/history.md#get_history)
+* [GET /history/{instrument}/ - Get currency cross history](./resources/history.md#get_history)
 
 #### History
 
-* [GET /rate/{instrument} - Get rate](./resources/rate.md#get_rate)
+* [GET /rate/{instrument}/ - Get rate](./resources/rate.md#get_rate)

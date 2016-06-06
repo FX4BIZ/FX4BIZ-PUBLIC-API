@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: GET 
-URL: /rate/{instrument}
+URL: /rate/{instrument}/
 ```
 Retrieves the current rate for the instrument given.
 
@@ -22,7 +22,7 @@ An instance of a [Rate](../resources/resources.md#rate_resource) object.
 
 **Example:**
 ```js
-GET /rate/EURUSD
+GET /rate/EURUSD/
 ```
 
 <hr />

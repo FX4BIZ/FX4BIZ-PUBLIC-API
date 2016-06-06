@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: GET 
-URL: /history/{instrument}
+URL: /history/{instrument}/
 ```
 Retrieves the currency cross history for a cross given, with one rate per day.
 
@@ -30,7 +30,7 @@ An instance of a [RateHistory](../resources/resources.md#rateHistory_resource) o
 
 **Example:**
 ```js
-GET /history/EURUSD?from=2016-01-01&to=2016-01-10&dateFormat=Y-m-d
+GET /history/EURUSD/?from=2016-01-01&to=2016-01-10&dateFormat=Y-m-d
 ```
 
 <hr />
