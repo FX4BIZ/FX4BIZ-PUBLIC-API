@@ -43,7 +43,7 @@ This request adds a contact.
 | civility | String | The civility of the contact, wether `Mr.` or `Mrs.`. |
 | firstName | String | The first name of the contact. |
 | lastName | String | The last name of the contact. |
-| type | String | The type of the search, wether `SMS` or `email`. |
+| type | String | The type of the contact, wether `SMS` or `email`. |
 | informations | String | Either the phone number for the type SMS, or the email address for the type email. |
 
 **Returns:**
