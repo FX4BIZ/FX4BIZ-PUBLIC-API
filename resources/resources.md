@@ -13,7 +13,7 @@
 
 **Example :**
 ```js
-{
+alert: {
 	alertID: "AC15DB",
 	contactID: "TD126S",
 	type: "SMS",
@@ -39,7 +39,7 @@
 
 **Example :**
 ```js
-{
+contact: {
 	contactID: "AC15DB",
 	civility: "Mr.",
 	firstName: "John",
@@ -62,7 +62,7 @@
 
 **Example :**
 ```js
-{
+cross: {
 	instrument: "EURUSD",
 }
 ```
@@ -79,20 +79,18 @@
 
 **Example :**
 ```js
-{
-	crossList: [
-		{
-			instrument: "EURUSD"
-		},
-		{
-			instrument: "EURGBP"
-		},
-		{
-			instrument: "EURHKD"
-		},
-		...
-	]
-}
+crossList: [
+	{
+		instrument: "EURUSD"
+	},
+	{
+		instrument: "EURGBP"
+	},
+	{
+		instrument: "EURHKD"
+	},
+	...
+]
 ```
 
 <hr />
@@ -109,7 +107,7 @@
 
 **Example :**
 ```js
-{
+rate: {
 	instrument: "EURUSD",
 	rate: 1.4581,
 	date: "2016-01-10 10:15:32"
@@ -128,26 +126,24 @@
 
 **Example :**
 ```js
-{
-	rateHistory: [
-		{
-			instrument: "EURUSD",
-			rate: 1.4581,
-			date: "2016-01-10 00:00:00"
-		},
-		{
-			instrument: "EURUSD",
-			rate: 1.0154,
-			date: "2016-01-11 00:00:00"
-		},
-		{
-			instrument: "EURUSD",
-			rate: 1.2458,
-			date: "2016-01-12 00:00:00"
-		},
-		...
-	]
-}
+rateHistory: [
+	{
+		instrument: "EURUSD",
+		rate: 1.4581,
+		date: "2016-01-10 00:00:00"
+	},
+	{
+		instrument: "EURUSD",
+		rate: 1.0154,
+		date: "2016-01-11 00:00:00"
+	},
+	{
+		instrument: "EURUSD",
+		rate: 1.2458,
+		date: "2016-01-12 00:00:00"
+	},
+	...
+]
 ```
 
 <hr />
