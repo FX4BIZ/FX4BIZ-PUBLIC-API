@@ -10,7 +10,7 @@ You can find some standards concerning this API [here](./resources/convention.md
 
 #### Alert
 
-* [POST /alert/ - Add an alert](./resources/alert.md#post_alert)
+* [POST /alert/ - Add an alert](./services/alert.md#post_alert)
 
 #### Contact
 
