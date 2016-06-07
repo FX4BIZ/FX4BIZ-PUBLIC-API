@@ -6,8 +6,8 @@
 
 | Name | Type | Description |
 |------|------|-------------|
-| alertID | ID | The ID of the alert. |
-| contactID | ID | The ID of the contact linked with the alert. |
+| alertID | [ID](./types.md#id_type) | The ID of the alert. |
+| contactID | [ID](./types.md#id_type) | The ID of the contact linked with the alert. |
 | type | String | The type of alert, wether `SMS` or `email`. |
 | informations | String | Either the phone number for the type SMS, or the email address for the type email. |
 
@@ -29,7 +29,7 @@
 
 | Name | Type | Description |
 |------|------|-------------|
-| contactID | ID | The ID of the contact. |
+| contactID | [ID](./types.md#id_type) | The ID of the contact. |
 | civility | String | The civility of the contact. |
 | firstName | String | The first name of the contact. |
 | lastName | String | The last name of the contact. |
@@ -75,7 +75,7 @@
 
 | Name | Type | Description |
 |------|------|-------------|
-| crossList | Array of Cross | An array containing crosses.  |
+| crossList | Array of [Cross](./resources.md#cross_resource) | An array containing crosses.  |
 
 **Example :**
 ```js
@@ -105,14 +105,14 @@
 |------|------|-------------|
 | instrument | String | The representation of the currency cross with two currencies with [ISO-4217 Currency Code](http://www.xe.com/iso4217.php) format. |
 | rate | Float | The rate of the instrument for the date of the RateHistory. |
-| date | Date | The date of the RateHistory. |
+| date | [Datetime](./types.md#datetime_type) | The date of the RateHistory. |
 
 **Example :**
 ```js
 {
 	instrument: "EURUSD",
 	rate: 1.4581,
-	date: "2016-01-10"
+	date: "2016-01-10 10:15:32"
 }
 ```
 
@@ -124,7 +124,7 @@
 
 | Name | Type | Description |
 |------|------|-------------|
-| rateHistoryList | Array of Rate | An array containing RateHistory.  |
+| rateHistory | Array of [Rate](./resources.md#rate_resource) | An array containing RateHistory.  |
 
 **Example :**
 ```js
@@ -133,17 +133,17 @@
 		{
 			instrument: "EURUSD",
 			rate: 1.4581,
-			date: "2016-01-10"
+			date: "2016-01-10 00:00:00"
 		},
 		{
 			instrument: "EURUSD",
 			rate: 1.0154,
-			date: "2016-01-11"
+			date: "2016-01-11 00:00:00"
 		},
 		{
 			instrument: "EURUSD",
 			rate: 1.2458,
-			date: "2016-01-12"
+			date: "2016-01-12 00:00:00"
 		},
 		...
 	]
