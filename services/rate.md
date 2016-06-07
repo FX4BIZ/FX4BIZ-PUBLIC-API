@@ -14,7 +14,7 @@ Retrieves the current rate for the instrument given.
 
 | Field | Type | Description |
 |-------|------|-------------|
-| instrument | String | The representation of the currency cross to get history on. |
+| instrument | String | The representation of the currency pair to get the rate on. |
 
 **Returns:**
 
