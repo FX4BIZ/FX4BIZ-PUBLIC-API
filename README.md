@@ -25,11 +25,11 @@ You can find some standards concerning this API [here](./resources/convention.md
 
 * [GET /history/{instrument}/ - Get currency cross history](./services/history.md#get_history)
 
-#### History
+#### Rate
 
 * [GET /rate/{instrument}/ - Get rate](./services/rate.md#get_rate)
 
-## Object descriptions
+## Resource description
 
 * [Alert](./resources/resources.md#alert_resource)
 * [Contact](./resources/resources.md#contact_resource)
