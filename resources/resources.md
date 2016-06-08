@@ -8,8 +8,6 @@
 |------|------|-------------|
 | alertID | [ID](./types.md#id_type) | The ID of the alert. |
 | contactID | [ID](./types.md#id_type) | The ID of the contact linked with the alert. |
-| type | String | The type of alert, wether `SMS` or `email`. |
-| informations | String | Either the phone number for the type SMS, or the email address for the type email. |
 | instrument | String | The instrument to get an alert from. |
 | threshold | Float | The threshold to trigger the alert, on the given instrument. |
 
@@ -18,8 +16,6 @@
 alert: {
 	alertID: "AC15DB",
 	contactID: "TD126S",
-	type: "SMS",
-	informations: "+336789456123"
 	instrument: "EURUSD",
 	threshold: 1.4950
 }
