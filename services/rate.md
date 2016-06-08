@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: GET 
-URL: /rate/{instrument}/
+URL: /Rate/{instrument}/
 ```
 Retrieves the current rate for the instrument given.
 

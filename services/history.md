@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: GET 
-URL: /history/{instrument}/
+URL: /RateHistory/{instrument}/
 ```
 Retrieves the currency cross history for a cross given, with one rate per day.
 

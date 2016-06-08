@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: GET 
-URL: /cross/
+URL: /Cross/
 ```
 Retrieves the crosses available for graphs and alerts.
 

@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: GET 
-Path: /contact/{type}/{informations}/
+Path: /Contact/{type}/{informations}/
 ```
 This request retrieves all informations about a contact.
  
@@ -23,7 +23,7 @@ An instance of a [Contact](../resources/resources.md#contact_resource) object.
 
 **Example:**
 ```js
-GET /contact/SMS/+336123456789
+GET /Contact/SMS/+336123456789
 ```
 
 <hr />

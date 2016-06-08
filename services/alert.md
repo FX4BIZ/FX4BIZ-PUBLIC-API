@@ -6,7 +6,7 @@ TBD
 
 ```http
 Method: POST 
-URL: /alert/
+URL: /Alert/
 ```
 Adds an alert for the contact given, with the parameters given.
 

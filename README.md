@@ -14,20 +14,20 @@ You can find some standards concerning this API [here](./resources/convention.md
 
 #### Contact
 
-* [GET /contact/{type}/{informations}/ - Retrieve contact informations](./services/contact.md#get_contact)
-* [POST /contact/ - Add a contact](./services/contact.md#post_contact)
+* [GET /Contact/{type}/{informations}/ - Retrieve contact informations](./services/contact.md#get_contact)
+* [POST /Contact/ - Add a contact](./services/contact.md#post_contact)
 
 #### Cross
 
-* [GET /cross/ - Get available crosses](./services/cross.md#get_cross)
+* [GET /Cross/ - Get available crosses](./services/cross.md#get_cross)
 
 #### History
 
-* [GET /history/{instrument}/ - Get currency cross history](./services/history.md#get_history)
+* [GET /RateHistory/{instrument}/ - Get currency cross history](./services/history.md#get_history)
 
 #### Rate
 
-* [GET /rate/{instrument}/ - Get rate](./services/rate.md#get_rate)
+* [GET /Rate/{instrument}/ - Get rate](./services/rate.md#get_rate)
 
 ## Resource description
 
