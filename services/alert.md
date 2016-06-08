@@ -17,6 +17,8 @@ Adds an alert for the contact given, with the parameters given.
 | contactID | [ID](../resources/types.md#id_type) | The ID of the contact to add the alert. | 
 | type | String | The type of alert, wether `SMS` or `email`. |
 | informations | String | Either the phone number for the type SMS, or the email address for the type email. |
+| instrument | String | The instrument to get an alert from. |
+| threshold | Float | The threshold to trigger the alert, on the given instrument. |
 
 **Returns:**
 
@@ -28,7 +30,9 @@ POST /alert/
 {
 	contactID: "A145SEA",
 	type: "SMS",
-	informations: "+33123456789"
+	informations: "+33123456789",
+	instrument: "EURUSD",
+	threshold: 1.4950
 }
 ```
 
